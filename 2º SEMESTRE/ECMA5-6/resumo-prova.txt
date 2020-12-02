@@ -1,0 +1,32 @@
+EcmaScript 5 - ES5
+forEach()
+find()
+filter()
+map()
+reduce()
+
+
+
+EcmaScript 6 - ES6
+funções anônimas
+arrow functions - funções com seta
+
+
+
+Classes
+classes e objeto
+váriaveis e métodos
+instâncias
+this
+
+
+
+
+
+Consumo de API's
+let req = new XMLHttpRequest()
+req.open()
+req.send()
+req.onload = function (){
+
+}

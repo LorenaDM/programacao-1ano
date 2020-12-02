@@ -1,0 +1,46 @@
+viacep.com.br ==> API
+                    1OPEN() abro a requsição
+navegador =======requsição http=======> servidor http <=================> banco de dados(devolve as informações, ex:. logradouro, bairro, localidade, estado)
+                    2send() enviar a solicitação
+                    3 onload() receber
+    http
+    Hypertext Transfer Protocol
+    protocolo de tranasferência de hipertexto
+        ex: uma page HTML
+
+APIS's importância
+1ºSegurança
+2ºUma única fonte de resposta para diferentes dispositivos
+ning acessa o banco de dados
+viacep.com.br
+
+json = 
+    {
+        "aspas":"valor",
+        "aspas":"valor",
+        "aspas":"valor"
+    }
+1. req.open()
+Abre a requisição
+True = requisição é Assíncrona
+
+2. req.send()
+se for True = requisição é Assíncrona
+O métod retorna tão logo a requisição é enviada
+
+3. req.onload = function(){
+
+}
+Assíncrono = momentos diferentes
+                *EAD aulas gravadas
+                *Email
+Síncrono = simultânea
+            *Aulas Online
+            *WhatsApp
+            
+requisição.readyState == 4
+ *servidor retornou uma resposta para o cliente
+    *requisição.status >= 200
+        >Foram entregues == SUCESSO
+    *requisição.status < 400
+        >não obteve sucesso
